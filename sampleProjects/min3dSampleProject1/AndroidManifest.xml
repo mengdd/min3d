@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="min3d.sampleProject1"
+      android:versionCode="20"
+      android:versionName="Feb_27_2010">
+    
+    <uses-sdk android:minSdkVersion="4" />
+
+    <application android:debuggable="false" android:icon="@drawable/icon" android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:name=".SplashActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ExampleRotatingPlanets" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleMostMinimal" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleVertexColors" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleTextures" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleVerticesVariations" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleRenderType" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleCamera" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleMultipleLights" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleAnimatingVertices" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleSubsetOfFaces" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleAssigningTexturesDynamically" android:label="@string/app_name"></activity>
+		<activity android:name=".ExampleTextureWrap" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleMipMap" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleMultiTexture" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleTextureOffset" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleFog" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleTransparentGlSurface" android:label="@string/app_name" android:theme="@android:style/Theme.Translucent.NoTitleBar"></activity>
+    	<activity android:name=".ExampleLoadObjFile" android:label="@string/app_name"></activity>
+		<activity android:name=".ExampleLoadObjFileMultiple"></activity>
+		<activity android:name=".ExampleLoad3DSFile"></activity>
+		<activity android:name=".ExampleLoadMD2File"></activity>
+        <activity android:name=".ExampleInsideLayout" android:label="@string/app_name"></activity>
+		<activity android:name=".ExampleKeyframeAnimation"></activity>
+		<activity android:name="ExampleAccelerometer"></activity>
+		
+		<!-- Debugging-related activities: -->
+        <activity android:name=".ScratchActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ExampleLightProperties" android:label="@string/app_name"></activity>
+        
+</application>
+    
+</manifest>
+ 

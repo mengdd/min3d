@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/listActivity"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#ff0000"
+>
+
+ 	 <!-- 3d -->
+	<LinearLayout android:id="@+id/sceneHolder"
+		android:gravity="center_horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		android:paddingTop="20px"
+	>
+		
+	</LinearLayout>
+
+	<!-- two columns: two sliders + two checkboxes -->
+	<LinearLayout 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"
+		android:paddingTop="15px"
+		>
+		
+		<LinearLayout 
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="0.5"
+			android:paddingRight="7px">
+			
+			<SeekBar android:id="@+id/seekbarC1" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+				
+		</LinearLayout>
+		
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="0.5"
+			android:paddingLeft="7px">
+			
+			<CheckBox android:id="@+id/cbx1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="center_vertical" />
+				
+		</LinearLayout>
+		
+	</LinearLayout>
+
+</LinearLayout>

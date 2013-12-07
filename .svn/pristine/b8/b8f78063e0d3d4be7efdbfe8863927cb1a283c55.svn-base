@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/listActivity"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+ 
+	<TextView android:id="@+id/splashTitle"
+		android:text="This is an example of placing a 3D scene within a conventional XML-based Android layout."
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:padding="10sp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1">
+
+		<LinearLayout 
+			android:background="#888888"
+			android:layout_width="100sp"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:paddingRight="10sp">
+
+			<TextView
+				android:text="In publishing  and graphic design, lorem ipsum is the name given to commonly used placeholder text (filler text) to demonstrate the graphic elements of a document or visual presentation, such as font, typography, and layout."
+				android:textStyle="italic"
+				android:padding="10sp"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+			/>
+			
+		</LinearLayout>
+	 
+		<LinearLayout android:id="@+id/scene1Holder"
+			android:gravity="center_horizontal"
+			android:layout_height="fill_parent"
+			android:layout_width="100sp"
+			android:layout_weight="1"
+			android:paddingLeft="10sp" />
+		</LinearLayout>
+ 
+		<LinearLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:layout_weight="0.0"
+			android:paddingTop="20sp">
+
+			<Button 
+				android:id="@+id/layoutOkay"
+				android:text="OK"
+				android:textSize="16sp"
+			 	android:textStyle="bold"
+				android:layout_width="fill_parent"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"/>
+			<Button 
+				android:id="@+id/layoutCancel"
+				android:text="Cancel"
+				android:textSize="16sp"
+			 	android:textStyle="bold"
+				android:layout_width="fill_parent"
+				android:layout_weight="1"
+				android:layout_height="wrap_content" />
+	
+	</LinearLayout>
+
+</LinearLayout>
